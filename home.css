@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    height: 15vh;
+}
+
+nav li {
+    display: inline;
+    letter-spacing: 3px;
+    margin-left: 40px;
+    margin-right: 10px;    
+}
+
+nav li:hover{
+    opacity: 0.5;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagens/imgabdominal.jpg);   
+    background-size: cover;
+}
+
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h1{
+    font-size: 5em;
+    color: #fff;
+}
+.banner .content p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+.btn{
+    font-size: 1em;
+    color: #fff;
+    background: #b2413f;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: 0.7s;
+}
+.btn :hover{
+    letter-spacing: 6px;
+}
+
+
+
+
+.planos{
+    background-color: black;
+    position: relative;
+    width: 99,9%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planos h2{
+    padding-bottom: 30px;
+    margin: 15px;
+}
+
+.planos li{
+    padding: 6px;    
+}
+
+.planos p{
+    color: #fff;
+    margin: 15px;
+    padding-top: 50px;
+    font-size: 22px;
+}
+
+.planos .plano1{
+    padding: 51px 50px 100px 50px;
+    background: #b2413f;
+    width: 33.3%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.planos .plano2{
+    padding: 51px 50px 100px 50px;
+    background: silver;
+    width: 33.3%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.planos .plano3{
+    padding: 52px 50px 80px 50px;
+    background-color: black;
+    color: #fff;
+    width: 33.3%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+
+
+.contact{
+    color: #fff;
+    padding-top: 40px;
+    background-color: black;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.contact h2{
+    padding-bottom: 10px;
+}
+.contact p{
+    padding-bottom: 20px;
+}
+.contact input{
+    background: #555;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 10px 20px 10px;
+}
+.contact .submit{
+    cursor: pointer;
+}
+
+
+
+.footer{
+    padding: 5px;
+    color: #fff;
+    font-size: 7px;
+    background-color: #b2413f;
+    text-align: center;
+    letter-spacing: 1px;
+}

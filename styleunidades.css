@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #b2413f;
+    height: 15vh;
+
+}
+
+nav li {
+    display: inline;
+    letter-spacing: 3px;
+    margin-left: 40px;
+    margin-right: 10px;    
+}
+
+nav li:hover{
+    opacity: 0.5;
+}
+
+
+
+.bannertop{
+    position: relative;
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagens/unidades.jpg);
+    background-size: cover;
+}
+.bannertop .content{
+    max-width: 900px;
+    text-align: center;
+}
+.bannertop .content h1{
+    font-size: 2.2em;
+    color: #fff;
+    letter-spacing: 2.5px;
+}
+
+
+
+.divisor{
+    background: #b2413f;
+    padding: 5px;
+    width: 100%;
+}
+
+
+
+.unit1, .unit2, .unit3{
+    position: relative;
+    width: 100%;
+    display: flex;    
+}
+.unit1 .contentBox, .unit2 .contentBox, .unit3 .contentBox{
+    background: #fff;
+    padding: 50px;
+    width: 50%;
+}
+
+.unit1 .heading, .unit2 .heading, .unit3 .heading{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px;
+}
+.unit1 li, .unit2 li, .unit3 li{
+    letter-spacing: 1px;
+    padding: 6px;
+    text-align: center;
+}
+.unit1 p, .unit2 p, .unit3 p{
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.unit1 .imgBox, .unit2 .imgBox, .unit3 .imgBox{
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.unit2 .contentBox{
+    background: black;
+}
+.unit2 .heading, .unit2 li, .unit2 p{
+    color: #fff;
+}
+
+.unit1 .imgBox{
+    background: url(../imagens/unidade1.jpg);
+}
+.unit2 .imgBox{
+    background: url(../imagens/unidade2.jpg);
+}
+.unit3 .imgBox{
+    background: url(../imagens/unidade3.jpg);
+}
+
+
+
+.footer{
+    color: #fff;
+    padding-top: 15px;
+    background-color: #b2413f;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.footer .list{
+    margin: 10px 0px 20px 0px;    
+    letter-spacing: 1px;
+    padding: 6px;
+    text-align: center;
+}
+
+.footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer audio{
+    margin-top: 15px;
+}
+
+
+.footerend{
+    padding: 1px;
+    color: #fff;
+    font-size: 7px;
+    background-color: black;
+    text-align: center;
+    letter-spacing: 1px;
+}

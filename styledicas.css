@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #b2413f;
+    height: 15vh;
+
+}
+nav li {
+    display: inline;
+    letter-spacing: 3px;
+    margin-left: 40px;
+    margin-right: 10px;    
+}
+nav li:hover{
+    opacity: 0.5;
+}
+
+
+
+.bannertop{
+    position: relative;
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagens/unidades.jpg);
+    background-size: cover;
+}
+.bannertop .content{
+    max-width: 900px;
+    text-align: center;
+}
+.bannertop .content h1{
+    font-size: 2.2em;
+    color: #fff;
+    padding-bottom: 10px;
+    letter-spacing: 2.5px;
+}
+.bannertop .content p{
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 2.5px;
+}
+
+
+
+.divisor{
+    background: black;
+    padding: 5px;
+    width: 100%;
+}
+
+
+
+.video{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.video .contentBox{
+    background: #fff;
+    padding: 50px;
+    width: 50%;
+}
+.video .heading{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.video li{
+    letter-spacing: 1px;
+    padding: 6px;
+    text-align: center;
+}
+.video .videoBox{
+    background: #fff;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.videocenter .videoBox{
+    background: black;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.videocenter{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.videocenter .contentBox{
+    background: black;
+    padding: 50px;
+    width: 50%;
+}
+.videocenter .heading{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.videocenter li{
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 6px;
+    text-align: center;
+}
+
+
+
+.footer{
+    color: #fff;
+    padding-top: 15px;
+    background-color: black;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.footer p{
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+.footerend p{
+    padding: 5px;
+    color: #fff;
+    font-size: 7px;
+    background-color: #b2413f;
+    text-align: center;
+    letter-spacing: 1px;
+}
